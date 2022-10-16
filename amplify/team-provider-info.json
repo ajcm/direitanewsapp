@@ -1,0 +1,34 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifydc1cd2c9fd194-staging-173038-authRole",
+      "UnauthRoleArn": "arn:aws:iam::042746780522:role/amplify-amplifydc1cd2c9fd194-staging-173038-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::042746780522:role/amplify-amplifydc1cd2c9fd194-staging-173038-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-amplifydc1cd2c9fd194-staging-173038-deployment",
+      "UnauthRoleName": "amplify-amplifydc1cd2c9fd194-staging-173038-unauthRole",
+      "StackName": "amplify-amplifydc1cd2c9fd194-staging-173038",
+      "StackId": "arn:aws:cloudformation:eu-west-1:042746780522:stack/amplify-amplifydc1cd2c9fd194-staging-173038/4005ce50-4d78-11ed-82b0-06641a9f906d",
+      "AmplifyAppId": "d3bxh6qewadpvv",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-amplifydc1cd2c9fd194-staging-173038-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "getData": {
+          "deploymentBucketName": "amplify-amplifydc1cd2c9fd194-staging-173038-deployment",
+          "s3Key": "amplify-builds/getData-5936596c685a48356c54-build.zip"
+        },
+        "getVideos": {
+          "deploymentBucketName": "amplify-amplifydc1cd2c9fd194-staging-173038-deployment",
+          "s3Key": "amplify-builds/getVideos-47703969356c696d7762-build.zip"
+        }
+      },
+      "auth": {
+        "direitanewsapp": {}
+      },
+      "api": {
+        "videoApi": {}
+      }
+    }
+  }
+}
